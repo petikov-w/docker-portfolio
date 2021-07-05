@@ -1,0 +1,25 @@
+.project-card {
+  height: 120px;
+  width: 350px;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  &-info {
+    margin: 15px;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  a {
+    text-decoration: none;
+
+  }
+  p {
+    color: #ffffff;
+  }
+  span {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #eeb913;
+  }
+}

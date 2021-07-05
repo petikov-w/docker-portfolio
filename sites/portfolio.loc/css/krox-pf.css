@@ -1,0 +1,172 @@
+body {
+  box-sizing: border-box;
+  background: #000000;
+}
+
+.container {
+  max-width: 1000px;
+  height: 726px;
+  margin: auto;
+}
+
+.business-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 105px 0 155px 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 50%;
+}
+
+.profession {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #FFBB01;
+  margin-bottom: 14px;
+}
+
+.name {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  line-height: 58px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.info a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 700;
+  color: #2E2E30;
+  background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+  padding: 24px 42px;
+  max-width: 285px;
+  border-radius: 50px;
+}
+
+.info a:hover {
+  color: #ffffff;
+  background: linear-gradient(180deg, #FFBB01 100%, #FDDE76 0%);
+}
+
+.img-card {
+  width: 370px;
+  height: 370px;
+  border-radius: 100%;
+  border: 10px solid #ffffff;
+  background-image: url(../images/krox.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+}
+
+.project-card {
+  height: 120px;
+  width: 350px;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+}
+.project-card-info {
+  margin: 15px;
+}
+.project-card-info:hover {
+  opacity: 0.8;
+}
+.project-card a {
+  text-decoration: none;
+}
+.project-card p {
+  color: #ffffff;
+}
+.project-card span {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #eeb913;
+}
+
+@media screen and (max-width: 1024px) {
+  .business-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-card {
+    order: -1;
+    margin-bottom: 60px;
+  }
+
+  .info {
+    align-items: center;
+    max-width: 70%;
+  }
+
+  .info p {
+    text-align: center;
+  }
+
+  .name {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .info {
+    max-width: 90%;
+  }
+
+  .info p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .info a {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .name {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .profession {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .img-card {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 8px solid #ffffff;
+  }
+}

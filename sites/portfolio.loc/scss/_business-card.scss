@@ -1,0 +1,72 @@
+
+.business-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 105px 0 155px 0;
+}
+
+
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 50%;
+}
+
+.profession {
+  @include use_font($Roboto,24px);
+  line-height: 28px;
+  font-weight: 400;
+  color: #FFBB01;
+  margin-bottom: 14px;
+}
+
+.name {
+  @include use_font($Roboto,50px);
+  line-height: 58px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.info p {
+  @include use_font($Roboto,16px);
+  line-height: 28px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.info a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.5px;
+  @include use_font($Roboto,12px);
+  line-height: 14px;
+  font-weight: 700;
+  color: #2E2E30;
+  background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+  padding: 24px 42px;
+  max-width: 285px;
+  border-radius: 50px;
+}
+
+.info a:hover {
+  color: #ffffff;
+  background: linear-gradient(180deg, #FFBB01 100%, #FDDE76 0%);
+}
+
+.img-card {
+  @include wh_size(370px, 370px, circle);
+  border: 10px solid #ffffff;
+  background-image: url(../images/krox.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+
+  //margin: 23px 20px 0 20px;
+}

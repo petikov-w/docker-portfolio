@@ -1,0 +1,146 @@
+2021/07/05 12:56:14 [notice] 1#1: using the "epoll" event method
+2021/07/05 12:56:14 [notice] 1#1: nginx/1.20.1
+2021/07/05 12:56:14 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/07/05 12:56:14 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/05 12:56:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/05 12:56:14 [notice] 1#1: start worker processes
+2021/07/05 12:56:14 [notice] 1#1: start worker process 32
+2021/07/05 12:56:14 [notice] 1#1: start worker process 33
+2021/07/05 12:56:14 [notice] 1#1: start worker process 34
+2021/07/05 12:56:14 [notice] 1#1: start worker process 35
+2021/07/05 12:56:14 [notice] 1#1: start worker process 36
+2021/07/05 12:56:14 [notice] 1#1: start worker process 37
+2021/07/05 12:56:14 [notice] 1#1: start worker process 38
+2021/07/05 12:56:14 [notice] 1#1: start worker process 39
+2021/07/05 13:11:19 [notice] 33#33: signal 15 (SIGTERM) received, exiting
+2021/07/05 13:11:19 [notice] 33#33: exiting
+2021/07/05 13:11:19 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2021/07/05 13:11:19 [notice] 36#36: signal 15 (SIGTERM) received, exiting
+2021/07/05 13:11:19 [notice] 36#36: exiting
+2021/07/05 13:11:19 [notice] 32#32: signal 15 (SIGTERM) received, exiting
+2021/07/05 13:11:19 [notice] 32#32: exiting
+2021/07/05 13:11:19 [notice] 32#32: exit
+2021/07/05 13:11:19 [notice] 35#35: signal 15 (SIGTERM) received, exiting
+2021/07/05 13:11:19 [notice] 37#37: signal 15 (SIGTERM) received, exiting
+2021/07/05 13:11:19 [notice] 37#37: exiting
+2021/07/05 13:11:19 [notice] 34#34: signal 15 (SIGTERM) received, exiting
+2021/07/05 13:11:19 [notice] 34#34: exiting
+2021/07/05 13:11:19 [notice] 38#38: signal 15 (SIGTERM) received, exiting
+2021/07/05 13:11:19 [notice] 38#38: exiting
+2021/07/05 13:11:19 [notice] 39#39: signal 15 (SIGTERM) received, exiting
+2021/07/05 13:11:19 [notice] 39#39: exiting
+2021/07/05 13:11:19 [notice] 39#39: exit
+2021/07/05 13:11:19 [notice] 33#33: exit
+2021/07/05 13:11:19 [notice] 36#36: exit
+2021/07/05 13:11:19 [notice] 35#35: exiting
+2021/07/05 13:11:19 [notice] 37#37: exit
+2021/07/05 13:11:19 [notice] 34#34: exit
+2021/07/05 13:11:19 [notice] 38#38: exit
+2021/07/05 13:11:19 [notice] 1#1: signal 14 (SIGALRM) received
+2021/07/05 13:11:19 [notice] 35#35: exit
+2021/07/05 13:11:20 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/07/05 13:11:20 [notice] 1#1: worker process 32 exited with code 0
+2021/07/05 13:11:20 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/05 13:11:20 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2021/07/05 13:11:20 [notice] 1#1: worker process 33 exited with code 0
+2021/07/05 13:11:20 [notice] 1#1: worker process 36 exited with code 0
+2021/07/05 13:11:20 [notice] 1#1: worker process 39 exited with code 0
+2021/07/05 13:11:20 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/05 13:11:20 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/07/05 13:11:20 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2021/07/05 13:11:20 [notice] 1#1: worker process 34 exited with code 0
+2021/07/05 13:11:20 [notice] 1#1: worker process 37 exited with code 0
+2021/07/05 13:11:20 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/05 13:11:20 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2021/07/05 13:11:20 [notice] 1#1: worker process 35 exited with code 0
+2021/07/05 13:11:20 [notice] 1#1: worker process 38 exited with code 0
+2021/07/05 13:11:20 [notice] 1#1: exit
+2021/07/05 13:12:21 [notice] 1#1: using the "epoll" event method
+2021/07/05 13:12:21 [notice] 1#1: nginx/1.20.1
+2021/07/05 13:12:21 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/07/05 13:12:21 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/05 13:12:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/05 13:12:21 [notice] 1#1: start worker processes
+2021/07/05 13:12:21 [notice] 1#1: start worker process 33
+2021/07/05 13:12:21 [notice] 1#1: start worker process 34
+2021/07/05 13:12:21 [notice] 1#1: start worker process 35
+2021/07/05 13:12:21 [notice] 1#1: start worker process 36
+2021/07/05 13:12:21 [notice] 1#1: start worker process 37
+2021/07/05 13:12:21 [notice] 1#1: start worker process 38
+2021/07/05 13:12:21 [notice] 1#1: start worker process 39
+2021/07/05 13:12:21 [notice] 1#1: start worker process 40
+2021/07/05 13:15:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/05 13:15:39 [notice] 33#33: gracefully shutting down
+2021/07/05 13:15:39 [notice] 34#34: gracefully shutting down
+2021/07/05 13:15:39 [notice] 35#35: gracefully shutting down
+2021/07/05 13:15:39 [notice] 36#36: gracefully shutting down
+2021/07/05 13:15:39 [notice] 37#37: gracefully shutting down
+2021/07/05 13:15:39 [notice] 38#38: gracefully shutting down
+2021/07/05 13:15:39 [notice] 39#39: gracefully shutting down
+2021/07/05 13:15:39 [notice] 40#40: gracefully shutting down
+2021/07/05 13:15:39 [notice] 33#33: exiting
+2021/07/05 13:15:39 [notice] 34#34: exiting
+2021/07/05 13:15:39 [notice] 35#35: exiting
+2021/07/05 13:15:39 [notice] 36#36: exiting
+2021/07/05 13:15:39 [notice] 37#37: exiting
+2021/07/05 13:15:39 [notice] 38#38: exiting
+2021/07/05 13:15:39 [notice] 39#39: exiting
+2021/07/05 13:15:39 [notice] 40#40: exiting
+2021/07/05 13:15:39 [notice] 33#33: exit
+2021/07/05 13:15:39 [notice] 34#34: exit
+2021/07/05 13:15:39 [notice] 35#35: exit
+2021/07/05 13:15:39 [notice] 36#36: exit
+2021/07/05 13:15:39 [notice] 37#37: exit
+2021/07/05 13:15:39 [notice] 38#38: exit
+2021/07/05 13:15:39 [notice] 39#39: exit
+2021/07/05 13:15:39 [notice] 40#40: exit
+2021/07/05 13:15:39 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/07/05 13:15:39 [notice] 1#1: worker process 34 exited with code 0
+2021/07/05 13:15:39 [notice] 1#1: worker process 37 exited with code 0
+2021/07/05 13:15:39 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/05 13:15:39 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2021/07/05 13:15:39 [notice] 1#1: worker process 35 exited with code 0
+2021/07/05 13:15:39 [notice] 1#1: worker process 39 exited with code 0
+2021/07/05 13:15:39 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/05 13:15:39 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2021/07/05 13:15:39 [notice] 1#1: worker process 36 exited with code 0
+2021/07/05 13:15:39 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/05 13:15:39 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2021/07/05 13:15:39 [notice] 1#1: worker process 33 exited with code 0
+2021/07/05 13:15:39 [notice] 1#1: worker process 38 exited with code 0
+2021/07/05 13:15:39 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/05 13:15:39 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2021/07/05 13:15:39 [notice] 1#1: worker process 40 exited with code 0
+2021/07/05 13:15:39 [notice] 1#1: exit
+2021/07/05 13:16:38 [notice] 1#1: using the "epoll" event method
+2021/07/05 13:16:38 [notice] 1#1: nginx/1.20.1
+2021/07/05 13:16:38 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/07/05 13:16:38 [notice] 1#1: OS: Linux 5.4.72-microsoft-standard-WSL2
+2021/07/05 13:16:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/05 13:16:38 [notice] 1#1: start worker processes
+2021/07/05 13:16:38 [notice] 1#1: start worker process 31
+2021/07/05 13:16:38 [notice] 1#1: start worker process 32
+2021/07/05 13:16:38 [notice] 1#1: start worker process 33
+2021/07/05 13:16:38 [notice] 1#1: start worker process 34
+2021/07/05 13:16:38 [notice] 1#1: start worker process 35
+2021/07/05 13:16:38 [notice] 1#1: start worker process 36
+2021/07/05 13:16:38 [notice] 1#1: start worker process 37
+2021/07/05 13:16:38 [notice] 1#1: start worker process 38
+2021/07/05 13:17:25 [error] 31#31: *1 open() "/var/www/portfolio.loc/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /favicon.ico HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
+2021/07/05 13:47:19 [error] 31#31: *44 open() "/var/www/portfolio.loc/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /favicon.ico HTTP/1.1", host: "hello.loc"
+2021/07/05 13:59:22 [error] 31#31: *45 open() "/var/www/portfolio.loc/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /favicon.ico HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
+2021/07/05 14:03:33 [error] 31#31: *53 open() "/var/www/portfolio.loc/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /favicon.ico HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
+2021/07/05 14:04:02 [error] 31#31: *53 open() "/var/www/portfolio.loc/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /favicon.ico HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
+2021/07/05 14:52:29 [error] 31#31: *115 open() "/var/www/portfolio.loc/robots.txt" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /robots.txt HTTP/1.1", host: "portfolio.loc"
+2021/07/05 14:52:51 [error] 31#31: *115 open() "/var/www/portfolio.loc/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=iPYb9vmAkaOX4ytegDyIqJlyKHgjQathDwT5SpWRG-OiG1FxtZrxQoMdMqr-lQnE HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
+2021/07/05 15:00:06 [error] 31#31: *125 open() "/var/www/portfolio.loc/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /favicon.ico HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
+2021/07/05 15:00:08 [error] 31#31: *125 open() "/var/www/portfolio.loc/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /favicon.ico HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
+2021/07/05 15:07:37 [error] 31#31: *144 open() "/var/www/portfolio.loc/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=OdcDJDHOkd4Y6qlWXiE5DFJDENpHimDSbFgmszCZhN_7q_Q561xvvWmRhv9GMa3o HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
+2021/07/05 15:08:04 [error] 31#31: *144 open() "/var/www/portfolio.loc/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /favicon.ico HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
+2021/07/05 15:13:53 [error] 31#31: *151 open() "/var/www/portfolio.loc/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /favicon.ico HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
+2021/07/05 15:13:56 [error] 31#31: *151 open() "/var/www/portfolio.loc/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /favicon.ico HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
+2021/07/05 15:16:14 [error] 31#31: *158 open() "/var/www/portfolio.loc/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /favicon.ico HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
+2021/07/05 15:16:16 [error] 31#31: *158 open() "/var/www/portfolio.loc/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /favicon.ico HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
+2021/07/05 15:19:13 [error] 31#31: *170 open() "/var/www/portfolio.loc/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /favicon.ico HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
+2021/07/05 15:21:50 [error] 31#31: *177 open() "/var/www/portfolio.loc/favicon.ico" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /favicon.ico HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
+2021/07/05 15:24:41 [error] 32#32: *185 open() "/var/www/portfolio.loc/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" failed (2: No such file or directory), client: 172.24.0.1, server: portfolio.loc, request: "GET /FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=imb3YpnqSOgfyNIXPOuu7j_lXMCf6HG1Upyok62zC6e7uL22tRVxYebNqYxIJN_5 HTTP/1.1", host: "portfolio.loc", referrer: "http://portfolio.loc/"
